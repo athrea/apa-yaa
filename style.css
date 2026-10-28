@@ -1,0 +1,31 @@
+
+/* Mengatur seluruh halaman */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background putih dan tulisan tepat di tengah */
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+/* Tulisan hai */
+h1 {
+    font-family: 'Allura', cursive;
+    font-size: 120px;
+    font-weight: normal;
+    text-align: center;
+
+    /* Warna merah menyala */
+    color: #ff0000;
+
+    /* Efek cahaya merah */
+    text-shadow: 0 0 12px rgba(255, 0, 0, 0.35);
+}
