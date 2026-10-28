@@ -25,7 +25,15 @@ h1 {
 
     /* Warna merah menyala */
     color: #ff0000;
-
-    /* Efek cahaya merah */
-    text-shadow: 0 0 12px rgba(255, 0, 0, 0.35);
+ /* Animasi kilau glitter */
+    animation: glitter 1.5s ease-in-out infinite alternate;
 }
+
+/* Efek berkilau */
+@keyframes glitter {
+    0% {
+        text-shadow:
+            0 0 5px #ff0000,
+            0 0 10px #ff3333,
+            0 0 15px #ff6666;
+ 
