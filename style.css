@@ -18,22 +18,10 @@ body {
 
 /* Tulisan hai */
 h1 {
-    font-family: 'Allura', cursive;
+    font-family: 'Arial', sans-serif;
     font-size: 120px;
     font-weight: normal;
     text-align: center;
 
     /* Warna merah menyala */
     color: #ff0000;
- /* Animasi kilau glitter */
-    animation: glitter 1.5s ease-in-out infinite alternate;
-}
-
-/* Efek berkilau */
-@keyframes glitter {
-    0% {
-        text-shadow:
-            0 0 5px #ff0000,
-            0 0 10px #ff3333,
-            0 0 15px #ff6666;
- 
